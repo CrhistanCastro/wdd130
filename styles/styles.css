@@ -1,5 +1,10 @@
+:root {
+    --background-color: darkblue;
+    --height: auto;
+    --text-align: center;
+}
 nav {
-    background-color: darkblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 nav a {
@@ -8,11 +13,11 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: darkblue;
+    color: var(--background-color);
 }
 main img {
     width: 150px;
-    height: auto;
+    height: var(--height);
 }
 p {
     padding: 0;
@@ -27,14 +32,14 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
 }
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align);
 }
