@@ -1,0 +1,20 @@
+header {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+* {
+    primary-color: 134074;
+    secondary-color: 453823;
+    accent: 5EB1BF;
+    accent2-color: E1CDB5;
+    heading-font: oswald;
+    text-font: sans-serif;
+}
