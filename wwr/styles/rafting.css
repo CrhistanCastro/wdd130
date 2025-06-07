@@ -30,6 +30,7 @@ header nav {
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
+    font-size: 1.3rem;
 }
 header, main, footer {
     width: 840px;
@@ -113,8 +114,8 @@ nav, p, section, article {
 
 .adventures figcaption {
   margin-top: 8px;
-  font-size: 0.9rem;
-  color: var(--secondary-color);
+  font-size: 1rem;
+  color: var(--primary-color);
 }
 footer {
   display: flex;
