@@ -6,9 +6,14 @@
     --heading-font: "Oswald", sans-serif;
     --body-font: "Outfit", sans-serif;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header {
     background-color: var(--accent1-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
     padding: 12px 24px;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -22,10 +27,8 @@ header nav {
     font-family: var(--heading-font);
     font-size: 1rem;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+h1 {
+  
 }
 body {
     font-family: var(--body-font);
@@ -38,7 +41,7 @@ header, main, footer {
 }
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
 }
 nav, p, section, article {
@@ -121,7 +124,6 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 footer .socialmedia {
