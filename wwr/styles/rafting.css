@@ -27,9 +27,7 @@ header nav {
     font-family: var(--heading-font);
     font-size: 1rem;
 }
-h1 {
-  
-}
+
 body {
     font-family: var(--body-font);
     color: var(--primary-color);
