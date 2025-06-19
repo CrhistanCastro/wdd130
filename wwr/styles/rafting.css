@@ -80,7 +80,7 @@ p {
 }
 .hero article img {
     float: right;
-    width: 125px;
+    width: 120px;
     margin-left: 12px;
     border-radius: 6px;
 }
@@ -99,9 +99,9 @@ p {
 .adventures {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
-  margin: 24px auto;
-  padding: 16px;
+  gap: 15px;
+  margin: 23px auto;
+  padding: 15px;
   max-width: 1000px;
   text-align: center;
 }
@@ -125,7 +125,7 @@ p {
 
 .adventures figcaption {
   margin-top: 8px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: var(--primary-color);
 }
 .data {
@@ -135,18 +135,18 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 0;
+  padding: 11px 0;
   background-color: #e9f4f6;
   color: var(--primary-color);
 }
 footer .socialmedia {
   display: flex;
-  gap: 12px;
+  gap: 11px;
   justify-content: flex-end;
 }
 footer .socialmedia a img {
-  width: 32px;
-  height: 32px;
+  width: 31px;
+  height: 31px;
 }
 fieldset {
     display: grid;
