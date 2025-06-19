@@ -221,10 +221,10 @@ button:hover {
 .employee-profiles {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin: 24px auto;
-  padding: 16px;
-  max-width: 1000px;
+  gap: 15px;
+  margin: 23px auto;
+  padding: 13px;
+  max-width: 900px;
   text-align: center;
 }
 .employee-profiles h2 {
