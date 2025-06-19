@@ -175,7 +175,7 @@ input, select, textarea {
  font-size: 1.1rem;
 }
 form {
-    width: 650px;
+    width: 600px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1);
@@ -215,8 +215,8 @@ button:hover {
 .map iframe {
     border: 0;
     width: 50%;
-    height: 400px;
-    border-radius: 8px;
+    height: 200px;
+    border-radius: 7px;
 }
 .employee-profiles {
   display: grid;
@@ -238,12 +238,12 @@ button:hover {
 .employee-profiles img {
   width: 100%;
   height: auto;
-  border-radius: 6px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
 }
 .employee-profiles figcaption {
-  margin-top: 8px;
-  font-size: 1.6rem;
+  margin-top: 7px;
+  font-size: 1.5rem;
   color: var(--primary-color);
 }
 .cta {
